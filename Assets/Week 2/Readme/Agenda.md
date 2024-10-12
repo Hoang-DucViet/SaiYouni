@@ -2,6 +2,14 @@
 
 ## 1. Kể Tên 3 Hàm Màu Xanh (Blue) Mà Unity Sẽ Tự Động Gọi
 
+- 3 method có sẵn của Unity:
+	- Start() 
+	- Update()
+	- Awake() 
+- Một số method khác:
+	- OnTriggerEnter(Collider other)
+	- OnCollisionEnter(Collision collision)
+
 ## 2. Kể Tên 5 Loại Giải Thuật Sắp Xếp Khác Nhau
 
 ## 3. Dùng Một Giải Thuật Sắp Xếp Khác Để Thay Cho Giải Thuật Trong Buổi Học

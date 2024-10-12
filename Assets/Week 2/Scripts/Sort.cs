@@ -14,15 +14,26 @@ public class Sort : MonoBehaviour
         return randomArray;
     }
     //----------------------Edit below --------------------
-    // Sort Algorithm 1
 
-    // Sort Algorithm 2
+    // Sort Algorithm 1 - BubbleSort
 
-    // Sort Algorithm 3
-
-    // Sort Algorithm 4
-
-    // Sort Algorithm 5
+    public void BubbleSort(int[] array)
+    {
+        int n = array.Length;
+        for (int i = 0; i < n - 1; i++)
+        {
+            for (int j = 0; j < n - i - 1; j++)
+            {
+                if (array[j] > array[j + 1])
+                {
+                    // Swap
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
 
     //----------------------Edit above --------------------
     public void ReadArray(int[] array)
@@ -38,6 +49,8 @@ public class Sort : MonoBehaviour
         int[] randomNumbers = GenerateRandomArray(10, 1, 100);
         //----------------------Edit below --------------------
         //Insert Algorithm here
+        BubbleSort(randomNumbers);
+
         //----------------------Edit above --------------------
         ReadArray(randomNumbers);
     }
