@@ -25,6 +25,18 @@
   - **TurboSquid**: Một trang web uy tín với nhiều asset cho các dự án game và phim.
 - Xem xét độ tương thích của các asset với Unity và dự án hiện tại.
 
+- Sketchfab
+
+	- Đa dạng định dạng hỗ trợ: Sketchfab cung cấp nhiều định dạng file như FBX, OBJ, GLTF – tất cả đều tương thích tốt với Unity.
+	- Quản lý chất lượng: Asset trên Sketchfab được kiểm duyệt tốt, nhiều mô hình chất lượng cao và có phần mô tả chi tiết về cấu trúc file.
+	- Xem trước trực tiếp: Bạn có thể xem trước mô hình 3D trực tiếp trước khi tải về, giúp kiểm tra tính phù hợp với dự án.
+		- Đánh giá mức độ tương thích: 9/10
+		
+- Free3D
+	- Định dạng hỗ trợ: Free3D hỗ trợ các định dạng như FBX, OBJ, phù hợp cho Unity, tuy nhiên một số asset miễn phí có thể cần chỉnh sửa trước khi nhập vào Unity.
+	- Quản lý chất lượng: Chất lượng các mô hình trên Free3D không được kiểm duyệt chặt chẽ, có sự dao động về chi tiết và tối ưu hóa của asset.
+		- Đánh giá mức độ tương thích: 7/10
+
 ## 5. Hỏi AI Cách Sử Dụng Nav Mesh Obstacle
 
 - Tìm hiểu cách sử dụng **NavMesh Obstacle** để chặn đường hoặc tạo vật cản cho các nhân vật điều hướng (navigation) trong game.
